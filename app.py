@@ -23,7 +23,7 @@ ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 model = load_model('./model/best_model.keras')  # Asegúrate de que el modelo esté en el directorio correcto
 
 # Configuración de OpenAI
-openai.api_key = "tu_api_key_aqui"  # Reemplaza con tu clave API de OpenAI
+openai.api_key = "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"  # Reemplaza con tu clave API de OpenAI
 
 # Historial de conversaciones para el chatbot
 conversation_history = []  # Comienza vacío
